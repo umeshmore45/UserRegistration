@@ -1,6 +1,6 @@
 # UserRegistration
 
-Useful For Creating New User.
+Useful For Creating New User.                                                                                                                                                     
 1.Text Input field is used to enter "FName Lname".                                                                                                                    
 2.email input field is usedd to enter "email".                                                                                                                               
 3.Password Input field is used to enter"Crete Password & Confirm Password ".                                                                                                           
