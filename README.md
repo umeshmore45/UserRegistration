@@ -8,4 +8,4 @@ Radio Input field is used to enter for "gender"
 checkbox Input Field is used to enter for "Languge"
 select Input Field is used to enter for "Department"
 
-host Url: https://umeshmore45.github.io/User/User-resgistration.html
+host Url: https://umeshmore45.github.io/UserRegistration/index.html
