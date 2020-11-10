@@ -5,62 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="shortcut icon" href="./Download/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/378693089f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>User Registration</h1>
-    <form >
-        <fieldset>
-            <legend>User Details</legend>
+    
+<div class="header">
+    <div class="navigation">
+          <div class="banner-logo">
+              <img src="./Download/logo.png" alt="" class="">
+          </div>
+          <div class="navigation-bar">
+              <ul class="navigation-links">
+                  <li class="items-links">Home</li>
+                  <li class="items-links">Log </li>
+                  <li class="items-links">Sign-up</li>
+                  <li class="items-links">Contact-us</li>
+
+              </ul>
+
+          </div>
+    </div>
+</div>
+
+<div class="container ">
+   <div class="container-img">
+       <img src="./Download/login.jpg" alt="sideimage" >
+   </div>
+
+<form class="container-login">   
+<div class="user  ">
         <label for="firstname">First Name</label>
-     <input type="text" name="firstname" id="firstname"><br/> <br/>
+     <input type="text" name="firstname" id="firstname" class="fristname "><br/> <br/>
       
      <label for="lastname">Last Name</label>
      
-     <input type="text" name="Lastname" id="lasttname"><br/><br/>
+     <input type="text" name="Lastname" id="lasttname" class="lastname"><br/><br/>
 
      <label for="email">User Email</label>
      
      <input type="email" name="email" id="email">
-    <br /> <br/>
+     
+  
     <label for="">Department</label>
     <select name="Department" id="Department"> 
       <option value="it"> Computer Engineer</option>
       <option value="Extc">Extc Engineer</option>
       </select>
-      <br/> <br/>
-    </fieldset>
-    
-<br/>
-    <fieldset>
-        <legend> User Password </legend> <br/>
+</div>
+<div class="password  ">
     <label for="password"> Create Password</label>
      
     <input type="password" name="password" id="password">
-    
+    <br>
     <label for="passwordc"> Confirm Password</label>
      
     <input type="password" name="password" id="passwordc"><br/><br/>
-    </fieldset>
+</div>
     
-<br/>
-    <fieldset>
-        <legend>Gender</legend>
-    <input type="radio" value="male" name="gender">Male</input>
-    <input type="radio" value="female" name="gender">Female</input>
-    <input type="radio" value="other" name="gender">Other</input>
-<br/> <br/>
-</fieldset>
-<br/>
-<fieldset> <br/>
-    <legend>Language</legend>
+    
+
+  
+        
+        <div class="gender ">
+            <h3>Gender</h3>
+    <input type="radio" value="male" name="gender" class="name">Male</input>
+    <input type="radio" value="female" name="gender" class="name">Female</input>
+    <input type="radio" value="other" name="gender" class="name">Other</input>
+        </div>
+
+
+
+   <!--
+    <div class="language">
+        <h3>Language</h3>
     <input type="checkbox" value="E" >English</input>
     <input type="checkbox" value="H">Hindi</input>
     <input type="checkbox" value="M">Marathi</input>
-<br/> <br/>
-</fieldset>
-<br>
+    </div>
+    --> 
 
-    <input type="submit">
-    </form>
+
+    <input type="submit" class="submit ">
+
+    <div class="orlogin ">
+       <span>Or login with</span>
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-google-plus fa-2x"></i>
+        <i class="fab fa-twitter fa-2x"></i>
+    </div>
+  
+</form>
+</div>
 </body>
 </html>

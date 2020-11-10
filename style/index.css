@@ -1,4 +1,204 @@
 body{
     background-color:#e4ebe4;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    width: 100%;
+    height: 15vh;
+    background-color: #5e614e;
+   /* border:2px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.banner-logo Img{
+    height: 12vh;
+    width: 40%;
+}
+
+.navigation-bar{
+    padding-top:1vh;
+    margin-left: 50vw;
+    padding-bottom:10vh ;
+
+}
+
+
+
+li{
+    display: inline;
+    padding-left:3vw ;
     
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:5vh;
+    background-color: white;
+}
+
+.container-img{
+    width: 15%;
+    padding-top:20vh;
+
+}
+
+.container-login {
+    width: 60%;
+    height: 110vh;
+}
+
+
+
+.fristname:focus{
+    background-color: yellow;
+    color:blue ;
+
+}
+
+.lastname:focus{
+background-color: yellow;
+color: blue;
+}
+
+
+#email:focus{
+    background-color:yellow;
+    color:blue;
+    }
+#Department{
+    background-color: white;
+    color:black;
+}
+
+.user{
+  /* border: 2px solid red;*/
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding-top: 3vh;
+    /*background-color: seashell; */
+    margin: 0px;
+    padding-bottom:0vh ;
+}
+
+.fristname {
+    height:5vh;
+    width:20vw;
+    margin:2vh;
+   /* border:2px solid red;*/
+}
+
+.lastname {
+    height:5vh;
+    width:20vw;
+    margin:2vh;
+    /*border:2px solid red;*/
+
+}
+
+
+
+#email {
+    height:5vh;
+    width:20vw;
+    margin:2vh;
+    /*border:2px solid red;*/
+}
+
+#department{
+    margin:2vh;
+    display: block;
+    padding-left: 5vw;
+
+}
+
+label{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.password{
+    
+    height: 24vh;
+    /*border:2px solid red;*/
+    padding-top:0vh;
+    text-align: center;
+   /* background-color: seashell; */
+    margin: 0px;
+    margin-bottom: 0vh;
+}
+
+
+#password {
+    height:5vh;
+    width:20vw;
+    margin:2vh;
+    padding-top: 2vh;
+    /*border:2px solid red;*/
+}
+
+
+#passwordc{
+    height:5vh;
+    width:19vw;
+    margin:2vh;
+    padding-top: 2vh;
+    padding-right:2vw ;
+    /*border:2px solid red;*/
+}
+
+#password:focus{
+    background-color: yellow;
+     color: red;
+}
+
+#passwordc:focus{
+    background-color: yellow;
+    color: red;
+}
+
+.border{
+border:2px solid blue;
+}
+
+.gender{
+    padding: 0px;
+    height: 15vh ;
+    text-align: center;
+    margin-top: 0vh;
+   /* background-color: seashell; */
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2vw;
+    background-color:tomato ;
+}
+
+.submit{
+    margin-top: 3vh;
+    width: 100%;
+    height: 7vh;
+    background-color: blue;
+}
+
+.orlogin {
+    height: 4vh;
+    padding-top:5vh ;
+    padding-left:30vw ;
+}
+
+.orlogin i{
+    margin-left:2vw ;
+}
+
+
