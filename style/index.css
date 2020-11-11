@@ -11,21 +11,27 @@ body{
    /* border:2px solid red;*/
     display: flex;
     flex-wrap: wrap;
+   justify-content: space-between;
 
 }
 
+.banner-logo{
+    margin-left:0vw;
+    width: 10%;
+}
 
 
-
-.banner-logo Img{
+.banner-logo img{
     height: 12vh;
-    width: 40%;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .navigation-bar{
     padding-top:1vh;
-    margin-left: 50vw;
-    padding-bottom:10vh ;
+    padding-right: 0vw;
+    padding-bottom:0vh ;
+    padding-left: 0vw;
 
 }
 
@@ -53,7 +59,8 @@ li{
 
 .container-login {
     width: 60%;
-    height: 110vh;
+    height: 120vh;
+    
 }
 
 
@@ -77,6 +84,8 @@ color: blue;
 #Department{
     background-color: white;
     color:black;
+    width: 20%;
+    padding: 7px;
 }
 
 .user{
@@ -114,11 +123,17 @@ color: blue;
     /*border:2px solid red;*/
 }
 
-#department{
-    margin:2vh;
-    display: block;
-    padding-left: 5vw;
+#Department{
+    margin-top:3vh;
+    margin-bottom: 6vh;
+   height: 6vh;
+    width: 40%;
 
+
+}
+
+.label-dep{
+    margin-right: 3vw;
 }
 
 label{
@@ -134,7 +149,7 @@ label{
     text-align: center;
    /* background-color: seashell; */
     margin: 0px;
-    margin-bottom: 0vh;
+    margin-top: 10vh;
 }
 
 
@@ -202,3 +217,205 @@ border:2px solid blue;
 }
 
 
+.footer-icon{
+   
+    /*display: flex;
+    flex-wrap: wrap;*/
+    text-align: center;
+   margin: 0px;
+}
+
+.footer-icon i{
+    margin-top: 3vh;
+    margin-left:5vw ;
+}
+
+.footer-top{
+    color: white;
+    padding-left: 95%;
+    position: fixed;
+    bottom: 0vh;
+}
+
+.footer-copyrights{
+    padding-top: 5vh;
+    color: black;
+    text-align: center;
+    padding-bottom:1vh ;
+}
+
+.p1{
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) { 
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.navigation-bar{
+    padding-top:0vh;
+    margin-right: 0vw;
+    padding-bottom:0vh ;
+    padding-left: 0vh;
+
+}
+.container-login {
+    width: 90%;
+    margin:5%;
+    
+}
+
+
+
+.navigation{
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 100%;
+     padding:0px;
+     margin:0px;
+
+}
+
+.navigation-links{
+    padding-bottom:15vh ;
+    padding-left: 20vw;
+}
+
+
+.container {
+      flex-direction: column;
+      margin:2vh;
+      width: 90%;
+
+}
+
+
+.container-img{
+    width: 90%;
+    padding-top:20vh;
+
+}
+
+.container-login {
+    width: 90%;
+    height: 120vh;
+    
+}
+
+
+.banner-logo{
+    margin-left:0vw;
+    width: 20%;
+    height:8vh ;
+}
+
+
+
+
+
+
+
+.container-img img{
+    height: 30vh;
+    padding-left:24vw;
+
+}
+
+.footer-top{
+    padding-left: 50%;
+    position: fixed;
+}
+/*
+.container-login {
+    width: 95%;
+    height: 120vh;
+    padding-top:10vh ;
+    margin-left:0vw;
+} */
+
+#Department{
+    background-color: white;
+    color:black;
+    width: 20vh;
+    /*padding: 7px;
+    padding-right:3vw ;*/
+    margin-right: 15vw;
+    margin-top: 5vh;
+    height: 5vh;
+    
+}
+
+.department-container{
+   margin-left: 10vw;
+}
+
+
+
+.label-dep{
+    margin-right: 3vw;
+}
+
+.fristname {
+    height:3vh;
+    width:30vw;
+    margin:2vh;
+   /* border:2px solid red;*/
+}
+
+.lastname {
+    height:3vh;
+    width:30vw;
+    margin:3vh;
+    /*border:2px solid red;*/
+}
+
+#email {
+    height:3vh;
+    width:30vw;
+    margin:3vh;
+    margin-bottom: 0vh;
+    /*border:2px solid red;*/
+}
+
+#password {
+    height:3vh;
+    width:30vw;
+    margin-top:0vh;
+    
+    /*border:2px solid red;*/
+}
+
+#passwordc{
+    height:3vh;
+    width:28vw;
+    margin:2vh;
+    margin-bottom: 0vh;
+    
+    /*border:2px solid red;*/
+}
+
+.password{
+    margin-top: 5vh;
+}
+
+
+
+
+.submit{
+    width: 90%;
+    margin-left: 6%;
+}
+
+
+.orlogin {
+    height: 4vh;
+    padding-top:5vh ;
+    padding-left:  15vw; ;
+}
