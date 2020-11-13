@@ -8,7 +8,9 @@ Useful For Creating New User.
 3.Password Input field is used to enter **Crete Password & Confirm Password.**                                                                                                           
 4.Radio Input field is used to enter for **gender.**                                                                                                                                                                                                                                                                         
 5.select Input Field is used to enter for **Department.**                                                                                                                           
-# style
+# Style
 stylesheet contain **Css**
 
-host Url: https://umeshmore45.github.io/UserRegistration/index.html
+# Host
+
+**Host Url:** https://umeshmore45.github.io/UserRegistration/index.html
